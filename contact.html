@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Anatomie </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <header>
+            <h1 class="title_anatomie">Contact</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="faq.html">
+                        FAQ
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <label for="">Naam</label><br>
+            <input type="text"><br>
+            <label for="">Email</label><br>
+            <input type="text"><br>
+            <label for="">Tel</label><br>
+            <input type="tel"><br><br>
+            <label for="">Vraag over:</label><br>
+            <input type="checkbox" id="contact_algemeen" name="contact_algemeen">
+            <label for="contact_algemeen">Algemeen</label><br>
+            <input type="checkbox" id="contact_hoofd" name="contact_hoofd">
+            <label for="contact_hoofd">Hoofd- halsgebied</label><br>
+            <input type="checkbox" id="contact_thorax" name="contact_thorax">
+            <label for="contact_thorax">Thorax</label><br>
+            <input type="checkbox" id="contact_abdomen" name="contact_abdomen">
+            <label for="contact_abdomen">Abdomen</label><br>
+            <input type="checkbox" id="contact_extremiteiten" name="contact_extremiteiten">
+            <label for="contact_extremiteiten">Extremiteiten</label><br><br>
+            <label for="">Vraag/Opmerking</label><br>
+            <textarea name="" id="" cols="30" rows="5"></textarea><br><br>
+            <span><input type="submit"></span> <span><input type="reset"></span>
+
+        </form>
+    </main>
+    <footer>
+        <h2 class="black-border">Hier is de footer.</h2>
+    </footer>
+</body>
+
+</html>
